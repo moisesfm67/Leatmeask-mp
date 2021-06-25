@@ -4,8 +4,8 @@ import { firebase, auth } from "../service/firebase";
 
 type UserProps = {
   id: string;
-  name: string | null;
-  avatar: string | null;
+  name: string;
+  avatar: string;
 };
 
 type AuthContextType = {
